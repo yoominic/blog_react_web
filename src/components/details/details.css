@@ -1,0 +1,25 @@
+
+.content-area{
+    height: 900px;
+    width: 100%;
+
+}
+
+.Typography{
+    width: 100%;
+}
+
+.text-content{
+    margin: 20px auto !important;
+    height: 80%;
+    max-width: 80%;
+    width: 80%;
+}
+
+.text-content .text-blog{
+    width: 100% !important;
+    font-size: 15px;
+    text-align: left;
+}
+
+

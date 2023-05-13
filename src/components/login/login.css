@@ -1,0 +1,101 @@
+.global{
+    background-color: #f5f5f5;
+    width: 100%;
+    /* max-height: 1500px; */
+    height: 100%;
+
+}
+
+
+
+.global .login-area{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-top: -200px;
+    margin-left: -300px;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+    /* border:  1px solid black; */
+}
+
+.global .login-area-title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -10px;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 50px;
+    color: #001329;
+}
+
+
+.global .login-area .alert{
+    border-radius: 10px 10px 0 0 !important;
+}
+.global .login-area .form{
+
+    height: 350px !important;
+    width: 580px !important;
+    margin: 10px auto;
+    /* border: 1px solid orange; */
+
+}
+.global .login-area .form .username-item{
+    margin-top: 100px;
+    width: 500px;
+  
+}
+
+.global .login-area .form .password-item{
+    margin-top: 10px;
+    width: 500px;
+}
+.global .login-area .form .rember-item{
+    margin-top: 10px;
+    width: 200px;
+}
+.global .login-area .form .login-item{
+    margin-top: 10px;
+    width: 100px;
+    /* border: 1px solid orange; */
+    margin: 0 auto;
+   
+}
+.global .login-area .form .login-item .ant-form-item-control-input{
+    
+    width: 100% !important;
+    
+
+}
+
+.global .login-area .form .login-item .btn{
+    /* border: 1px solid orange; */
+    width: 100%;
+    
+    
+}
+
+.global  .Jump-login{
+    position: absolute;
+    color: #001329;
+    left: 0;
+    margin-left: 20px;
+    bottom: 0;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 50px;
+}
+.ant-form-item-explain-error{
+    position: absolute;
+    left: 0;
+
+}

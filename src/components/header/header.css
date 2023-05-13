@@ -1,0 +1,72 @@
+.header{
+    width: 1140px;
+    margin: 0 auto;
+    height: 60px;
+    position: relative;
+    
+}
+.header .user-info{
+    height: 60px;
+    width: 300px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header .user-info img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+    float: left;
+}
+.header .user-info >span{
+    font-size: medium;
+    color: #001329;
+    float: left;
+    margin-left: 10px;
+   
+}
+.ant-menu-overflow-item{
+    width: 100px !important;
+    margin-right: 20px !important;
+}
+.ant-menu-title-content:hover{
+   color: #1677ff;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-menu-light.ant-menu-horizontal >.ant-menu-item::after{
+    border-bottom: none !important;
+}
+.ant-menu-title-content{
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-button{
+    position: absolute;
+    height: 35px;
+    width: 80px;
+    right: 0;
+    top: 50%;
+    margin-top: -17px;
+
+}
+.header-button p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+.menu{
+    background-color: #e5ebf4 !important;
+    font-size: 14px !important;
+    height: 45px;
+    width: 70%;  
+    border-bottom: none !important;
+}
+
+.header-logo{
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    margin-right: 20px;
+}

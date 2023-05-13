@@ -1,0 +1,100 @@
+.global{
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 1500px;
+
+
+}
+
+.global .ant-form-item-explain-error{
+    margin-left: 230px;
+    
+}
+.global .register-area{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-top: -200px;
+    margin-left: -300px;
+    width: 600px;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+    /* border:  1px solid black; */
+}
+
+.global .register-area-title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -10px;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 50px;
+    color: #001329;
+}
+.global .register-area .form .password-avatar{
+   
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 260px;
+  
+}
+.global .register-area .form .password-avatar .ant-upload-select
+{
+ 
+    padding: 0 ;
+    width: 70px;
+    height: 70px;
+
+}
+
+.global .register-area .alert{
+    border-radius: 10px 10px 0 0 !important;
+}
+.global .register-area .form{
+    height: 350px !important;
+    width: 580px !important;
+    margin: 10px auto;
+
+}
+.global .register-area .form .username-item{
+    margin-top: 40px;
+    width: 500px;
+}
+.global .register-area .form .password-nickName{
+   
+    width: 500px;
+}
+.global .register-area .form .password-item{
+    width: 500px;
+}
+
+.global .register-area .form .register-item{
+    margin-top: 50px;
+   margin-left: 220px;
+   width: 100px;
+   position: relative;
+}
+.global .register-area .form .ant-btn{
+    /* border: 1px solid orange; */
+    /* margin-left: 220px; */
+    
+    width: 100px;
+}
+.global  .Jump-register{
+    position: absolute;
+    color: #001329;
+    left: 0;
+    margin-left: 20px;
+    bottom: 0;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 50px;
+}

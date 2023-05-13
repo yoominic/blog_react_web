@@ -1,0 +1,44 @@
+.ant-list-item-meta-avatar {
+    display: none !important;
+}
+
+.ant-list-item-meta-title {
+    float: left !important;
+
+    width: 100%;
+    text-align: left !important;
+}
+
+.ant-list-item-main p {
+    text-align: left;
+}
+
+.ant-list-item-main {
+    position: relative;
+}
+
+.ant-list-item-meta-description {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    float: left !important;
+
+}
+
+.ant-list-item-action {
+    position: absolute;
+    width: 200px;
+    bottom: 10px;
+    right: 0;
+
+}
+
+.content {
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-width: 700px;
+    height: 60px;
+    margin-top: 5px;
+    text-align: left;
+}
